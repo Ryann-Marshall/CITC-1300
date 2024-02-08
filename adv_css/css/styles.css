@@ -1,0 +1,161 @@
+/* GLobal Styles */
+
+body{
+    background-color: rgb(21, 10, 2);
+}
+
+main {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+
+a {
+    color: #4c3d61;
+}
+
+a:hover {
+    color: rgb(218, 173, 59);
+    text-decoration: none;
+}
+
+#container {
+    background-color: rgb(172, 165, 142);
+    width: 85%;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+
+/* little thing to make my three picture be side by side here */
+.column {
+    float: left;
+    width: 30%;
+    padding: 18px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/*and theres that*/
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+/* Desktop styles */
+
+nav {
+   background-color: black;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 5px 0;
+    text-align: right;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    color: #846caa;
+    margin-right: 30px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav li a:hover {
+    color: rgb(225, 187, 90);
+}
+
+header h1 {
+    font-size: 55px;
+    color: rgb(57, 12, 70);
+    text-shadow: 2px 2px 10px #1b031f;
+}
+
+header h2 {
+    font-size: 40px;
+    color: rgb(45, 9, 55);
+    text-shadow: 2px 2px 5px #150218;
+}
+
+main {
+    padding: 25px;
+}
+
+main img {
+    width: 50%;
+}
+
+#lower {
+    display: flex;
+}
+
+.col1 {
+    padding: 8px;
+    margin: 5px;
+    border: 3px solid rgb(41, 7, 72);
+    width: 33.33%;
+    border-radius: 20px;
+}
+
+.col1 img {
+    width: 60%
+}
+
+.col {
+    padding: 8px;
+    margin: 5px;
+    border: 3px solid rgb(41, 7, 72);
+    width: 33.33%;
+    border-radius: 20px;
+}
+
+.col2 {
+    padding: 8px;
+    margin: 5px;
+    border: 3px solid rgb(41, 7, 72);
+    width: 33.33%;
+    border-radius: 20px;
+}
+
+.col2 img {
+    width: 100%;
+}
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+}
+
+hr {
+    width: 100%;
+}
+
+.button {
+    display: block;
+    background-color: rgb(46, 10, 63);
+    width: 125px;
+    height: 40px;
+    color: goldenrod;
+    text-decoration: none;
+    text-align: center;
+    line-height: 35px;
+    margin-top: 15px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button:hover {
+    color: antiquewhite;
+}
+
