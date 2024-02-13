@@ -1,0 +1,240 @@
+/* Global Styles*/
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+
+body{
+    background-color: rgb(21, 10, 2);
+}
+
+#container {
+    background-color: rgb(195, 188, 163);
+    padding: 20px;
+    width: 85%;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+a {
+    color: #4c3d61;
+}
+
+a:hover {
+    color: rgb(218, 173, 59);
+    text-decoration: none;
+}
+
+/* Moble Styles !! */
+
+nav {
+    background-color: rgb(107, 70, 107);
+    padding: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    height: 25px;
+    line-height: 25px;
+    color: goldenrod;
+    background-color: rgb(91, 71, 91);
+    text-align: center;
+    margin: 5px 0;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: rgb(154, 243, 213);
+}
+
+header h1 {
+    font-size: 35px;
+    text-align: center;
+    color: rgb(57, 12, 70);
+    text-shadow: 2px 2px 10px #1b031f;
+}
+
+header h2 {
+    font-size: 40px;
+    color: rgb(45, 9, 55);
+    text-shadow: 2px 2px 5px #150218;
+}
+
+main {
+    text-align: center;
+   border: 2px dotted  rgb(57, 12, 70);
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#lower {
+    border: 3px solid grey;
+}
+
+.col {
+    border: 1px dotted rgb(97, 7, 113);
+}
+.col1 {
+    border: 1px dotted rgb(97, 7, 113);
+}
+.col2 {
+   border: 1px dotted rgb(97, 7, 113);
+}
+
+.button {
+    display: block;
+    background-color: rgb(46, 10, 63);
+    width: 125px;
+    height: 35pxpx;
+    color: goldenrod;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    line-height: 35px;
+    margin-top: 15px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px dotted rgb(255, 237, 104);
+}
+
+.button:hover {
+    color: antiquewhite;
+}
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* Tablet mode */
+
+@media(min-width: 768px) {
+   nav {
+    text-align: center;
+   }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a{
+        width: 200px;
+    }
+    
+    .column img {
+        width: 10%;
+    }
+
+    main img {
+        width: 75%;
+    }
+
+
+        .column {
+            float: left;
+            width: 28%;
+            padding: 15px;
+        }
+        
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+
+        #lower {
+            display: flex;
+        }
+
+        .col1 {
+            padding: 8px;
+            margin: 5px;
+            border: 3px dotted rgb(41, 7, 72);
+            width: 33.33%;
+            border-radius: 20px;
+        }
+        .col {
+            padding: 8px;
+            margin: 5px;
+            border: 3px dotted rgb(41, 7, 72);
+            width: 33.33%;
+            border-radius: 20px;
+        }
+        .col2 {
+            padding: 8px;
+            margin: 5px;
+            border: 3px dotted rgb(41, 7, 72);
+            width: 33.33%;
+            border-radius: 20px;
+        }
+        .col1 img {
+            width: 60%
+        }
+        .col2 img {
+            width: 100%;
+        }
+}
+
+/* Desktop Styles !! */
+@media(min-width: 1024px) {
+
+    .column {
+        float: left;
+        width: 29%;
+        padding: 18px;
+    }
+    
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    nav li a {
+        color: goldenrod;
+        margin-right: 30px;
+        text-decoration:overline;
+        font-size: 20px;
+    }
+}
+
+/* EVEN BIGGER DESKTOP!!*/
+@media(min-width:1440px) {
+  
+    .column {
+        float: left;
+        width: 30%;
+        padding: 18px;
+    }
+    
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 10px 0;
+        text-align: center;
+    }
+}
