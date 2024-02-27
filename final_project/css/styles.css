@@ -10,7 +10,7 @@ body {
 }
 
 #container {
-    background-color: rgb(178, 182, 189);
+    background-color: #adb7c1;
     padding: 25px;
     width: 87%;
     margin: 15px auto;
@@ -200,7 +200,7 @@ footer {
             clear: both;
             display: table;
         }
-    
+
     #lower {
         width: 60%;
         margin: 0 auto;
@@ -253,12 +253,10 @@ footer {
         width: 29%;
         padding: 18px;
     }
-    
     .row::after {
         content: "";
         clear: both;
-        display: table;
-    }
+        display: table;}
 }
 
 /* Desktop styles */
@@ -274,12 +272,11 @@ footer {
     width: 30%;
     padding: 20px;
 }
-
 .row::after {
     content: "";
     clear: both;
-    display: table;
-}
+    display: table;}
+
 }
 
 /* 4K!! */
@@ -293,12 +290,11 @@ footer {
         width: 31%;
         padding: 21px;
     }
-    
+ 
     .row::after {
         content: "";
         clear: both;
-        display: table;
-    }  
+        display: table;}
 }
 
 /* this concludes the CSS */
