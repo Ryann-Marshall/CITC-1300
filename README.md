@@ -5,4 +5,5 @@
 <li> <a href="html5_introto_css/index.html" target="_blank">HTML5 into to CSS project</a></li>
 <li> <a href="adv_css/index.html" target="_blank">Advanced CSS</a></li>
 <li> <a href="respon/index.html" target="_blank">Resposive Web Design</a></li>
+<li> <a href="final_project/home.html" target="_blank">Final Project</a></li>
 </ul>
