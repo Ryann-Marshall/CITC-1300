@@ -251,7 +251,7 @@ footer {
     .column {
         float: left;
         width: 29%;
-        padding: 17px;
+        padding: 18px;
     }
     
     .row::after {
@@ -272,7 +272,7 @@ footer {
 .column {
     float: left;
     width: 30%;
-    padding: 19px;
+    padding: 20px;
 }
 
 .row::after {
@@ -291,7 +291,7 @@ footer {
     .column {
         float: left;
         width: 31%;
-        padding: 20px;
+        padding: 21px;
     }
     
     .row::after {
