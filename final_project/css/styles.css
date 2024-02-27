@@ -1,0 +1,183 @@
+/* Global Styles :) */
+
+body {
+    background-color: rgb(21, 46, 23);
+    text-align: center;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal ;
+}
+
+#container {
+    background-color: rgb(178, 182, 189);
+    padding: 25px;
+    width: 80%;
+    margin: 15px auto;
+    border-radius: 20px;
+}
+
+h1, h2, h3, h4, h5 {
+    text-align: center;
+    font-family: "Lobster Two", sans-serif;
+    font-style: normal;
+}
+
+
+ hr {
+    width: 100%;
+    color: rgb(7, 48, 7);
+ }
+
+ img {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+}
+
+a {
+    color: rgb(27, 42, 2);
+}
+
+a:hover {
+    color: rgb(18, 20, 18);
+    text-decoration: none;
+}
+
+hr {
+    width: 90%;
+    color: darkgreen;
+}
+
+/*Moble Stiles!*/
+
+nav {
+    background-color: rgb(90, 110, 55);
+    padding: 7px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    height: 20px;
+    line-height: 16px;
+    color: rgb(106, 165, 82);
+    background-color: rgb(18, 20, 18);
+    text-align: center;
+    margin: 5px 0;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: rgb(106, 165, 82);
+}
+
+header h1 {
+    font-size: xx-large;
+    color: rgb(23, 50, 10);
+}
+
+header h2 {
+    color: rgb(2, 33, 4);
+}
+
+main {
+    text-align: center;
+    border:2px solid  rgb(30, 60, 15);
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#low {
+    border: 2px dotted rgb(36, 78, 27);
+}
+
+.col1 {
+    border: 2px dotted rgb(36, 78, 27);
+}
+.col2 {
+    border: 2px dotted rgb(36, 78, 27);}
+
+.col3 {
+    border: 2px dotted rgb(36, 78, 27);}
+
+.col4 {
+   border: 2px dotted rgb(36, 78, 27);}
+
+  .button {
+    display: block;
+    background-color: rgb(48, 100, 40);
+    width: 125px;
+    height: 35px;
+    color: rgb(3, 14, 3);
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    line-height: 35px;
+    margin-top: 15px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px dotted rgb(114, 182, 106);
+}
+
+.button:hover {
+    color: rgb(63, 109, 53);
+}
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* Tablet Mode */
+
+@media(min-width: 768px) {
+   nav {
+    text-align: center;
+   }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a{
+        width: 200px;
+    }
+    
+    .column img {
+        width: 10%;
+    }
+
+    main img {
+        width: 75%;
+    }
+
+
+        .column {
+            float: left;
+            width: 28%;
+            padding: 15px;
+        }
+        
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+
+        #lower {
+            display: flex;
+        }
+    }
